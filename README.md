@@ -1,1 +1,1 @@
-# CoE197-Deep-Learning-
+# CoE197 (Deep Learning)
