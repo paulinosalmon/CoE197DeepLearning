@@ -30,7 +30,7 @@ The generation of Pokemon via AI can be considered an interesting subject simply
 
 AI focused on generating these Pokemon are not new. An example of this is [Yvan Scher's Monster GAN](https://medium.com/@yvanscher/using-gans-to-create-monsters-for-your-game-c1a3ece2f0a0). Monster GAN is somehow vanilla, although there was experimentation with leaky ReLU. The gif below shows progress over 125 epochs of training.
 
-<img src = "https://miro.medium.com/max/475/1*byd8KFPL-OpfU8SX45osvg.gif" width = "600">
+<img src = "img/pokemon.gif" width = "600">
 <center><small> <i>Image from https://miro.medium.com/max/475/1*byd8KFPL-OpfU8SX45osvg.gif</i></small> </center>
 
 We have this experiment by *moxiegushi* [PokeGAN](https://github.com/moxiegushi/pokeGAN) which is a WGAN-based Pokemon generator. WGAN stands for Wasserstein GAN, and this is an alternative to the traditional GAN. WGAN uses the Wasserstein loss function instead of KL divergence that we are used to in Traditional GAN -- this is actually one of Scher's recommendations. PokeGAN's sample output is shown below. 
